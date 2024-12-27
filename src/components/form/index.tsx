@@ -1,9 +1,9 @@
 import { Button } from "../button";
-
+import "./style.css";
 export function Form() {
   return (
     <form action="">
-      <div>
+      <div className="infor-task">
         <label htmlFor="task">Adicione uma nova atividade</label>
         <input
           type="text"
@@ -13,7 +13,7 @@ export function Form() {
           required
         />
       </div>
-      <div>
+      <div className="infor-task">
         <label htmlFor="time">Tempo da atividade</label>
         <input
           type="time"
