@@ -5,8 +5,10 @@ export function App() {
   return (
     <div className="app">
       <h1>Alura studies</h1>
-      <Form/>
-      <List/>
+      <div className="form-list">
+        <Form />
+        <List />
+      </div>
     </div>
-  ) 
+  );
 }
